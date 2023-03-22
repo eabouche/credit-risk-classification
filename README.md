@@ -2,7 +2,26 @@
 
 ## Overview of the Analysis
 
-The purpose of this project is to analyze a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.  As part of this analysis we will use the scikit-learn library to split our dataset using the "train_test_split" function into our training and testing sets for the model. We will then create a Logistic Regression model and train it using our "train" data. We will then predict how well was our model trained leveraging our test dataset. And lastly we will evaluate the performance of the model by using the balance_accuracy_score function, a confusion matrix, and a classification report for the model.
+The purpose of this project is to analyze a dataset of historical lending activity from a peer-to-peer lending services company in order to build a model that can identify the creditworthiness of borrowers. 
+
+The dataset to analyze includes features such as the loan size, interest rate, borrower income, debt to income, total debt and the loan status outcome.  We are looking to predict whether a loan is "healty" (0) or "high-risk" (1) in this activity (the loan status.)
+
+Stages of the machine learning process
+
+1- First, we will use the "train_test_split" function of the scikit-learn library to split our datasetinto the training and testing sets to use. 
+2- Then, we will create a Logistic Regression model and train it using the "train" data segment. 
+3- Next, after our model has been train, we will then make it predict how good are the loans in testing dataset segment. 
+4- And lastly, we will evaluate the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report with the results of the model.
+
+The analysis will use mainly the scikit-learn library for the core of the work.  
+
+The functions used from scikit-learn are: 
+- train_test_split
+- LogisticRegression
+- balance_accuracy_score
+- confusion_matrix
+- classification_report
+
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
@@ -13,6 +32,11 @@ In this section, describe the analysis you completed for the machine learning mo
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
+
+- The Balance Accuracy Score was 94%, which indicates ...
+- The Confusion Matrix shows the following ...
+- The Classification Report is as follows ...
+  - describe precision, recall, etc.
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -25,6 +49,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
+
+In summary, the data point that best describes the outcome is ...
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
