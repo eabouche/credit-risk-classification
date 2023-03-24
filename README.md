@@ -41,6 +41,7 @@ After running the model against the testing data:
 
 ![image](https://user-images.githubusercontent.com/115383317/227534056-ef91b388-dd49-4b22-b585-1fee1a6ae594.png)
 
+
   - The false numbers need to be as low as possible and 80 is the false positive, and 67 is the false negative.  Very low numbers compared to the rest. ***A good sign***
   
 - The Classification Report which shows the test results in evaluating the number of predicted occurrences shows:
