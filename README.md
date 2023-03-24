@@ -53,7 +53,7 @@ After running the model against the testing data:
   - precision: ratio of correctly predicted positive observations to the total predicted positive observations i.e. out of all high-risk loans, how many actually were high-risk? ***Passing Score***
   - recall: ratio of correctly predicted observations out of all predicted observations (positive and negative) i.e. out of all loans, how many were correctly predicted as high-risk? ***Passing Score***
   - f1-score: one number to summarize precision and recall. An overall score. ***Passing Score***
-  - accuracy: overall score 96.  ***Passing Score***
+  - accuracy: overall score 99.  ***Passing Score***
   
 
 ## Summary
