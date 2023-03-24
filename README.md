@@ -8,9 +8,9 @@ The dataset to analyze includes ***features*** such as the loan size, interest r
 
 ### Stages of the machine learning process
 
-1. First, we will read the data file into a python DataFrame and use the "train_test_split" function of the scikit-learn library to split our datasetinto the training and testing sets to use for this exercise 
-2. Then, we will create a Logistic Regression model and train it using the "train" data segment. 
-3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. 
+1. First, we will read the data file into a python DataFrame and use the "train_test_split" function of the scikit-learn library to split our dataset into the training and testing data sets for this task 
+2. Then, we will instantiate a Logistic Regression model and train it using the "training" dataset. By default, the training dataset is 75% of the data. 
+3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. We used the testing data to predict as this is the data the model hasn't seen in order to see how well it can predict it.
 4. And lastly, we will look into the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report to evaluate the results of the model.
 
 **Core functions and libraries for this work:** 
@@ -35,8 +35,11 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Results
 After running the model:
-- The resulting Balance Accuracy Score is 94%.
+- The Balance Accuracy Score using the new or test data is 94%.
 - The Confusion Matrix is as follows:
+
+  This indicates that...
+  
 - The Classification Report shows the following:
   - precision:
   - recall:
