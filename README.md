@@ -46,6 +46,10 @@ After running the model against the testing data:
   The false numbers need to be as low as possible and 80 is the false positive, and 67 is the false negative.  Very low numbers compared to the rest.
   
 - The Classification Report which shows the test results in evaluating the number of predicted occurrences shows:
+
+![image](https://user-images.githubusercontent.com/115383317/227543602-7c5647ba-9e8c-4c22-927a-9fe5a49ef27c.png)
+
+
   - precision: ratio of correctly predicted positive observations to the total predicted positive observations i.e. out of all high-risk loans, how many actually were high-risk?
   - recall: ratio of correctly predicted observations out of all predicted observations (positive and negative) i.e. out of all loans, how many were correctly predicted as high-risk?
   - f1-score: one number to summarize precision and recall. An overall score.
