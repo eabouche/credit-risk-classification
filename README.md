@@ -34,11 +34,15 @@ In this section, describe the analysis you completed for the machine learning mo
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
-
-- The Balance Accuracy Score was 94%, which indicates ...
-- The Confusion Matrix shows the following ...
-- The Classification Report is as follows ...
-  - describe precision, recall, etc.
+After running the model:
+- The resulting Balance Accuracy Score is 94%.
+- The Confusion Matrix is as follows:
+- The Classification Report shows the following:
+  - precision:
+  - recall:
+  - f1-score:
+  - accuracy:
+  
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
