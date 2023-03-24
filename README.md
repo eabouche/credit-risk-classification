@@ -34,7 +34,7 @@ In this section, describe the analysis you completed for the machine learning mo
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
-After running the model:
+After running the model against the testing data:
 - The Balance Accuracy Score using the new or test data is 94%.
 - The Confusion Matrix is as follows:
 
@@ -45,22 +45,12 @@ After running the model:
 
   The false numbers need to be as low as possible and 80 is the false positive, and 67 is the false negative.  Very low numbers compared to the rest.
   
-- The Classification Report shows the following:
+- The Classification Report which shows the test results in evaluating the number of predicted occurrences shows:
   - precision: ratio of correctly predicted positive observations to the total predicted positive observations i.e. out of all high-risk loans, how many actually were high-risk?
   - recall: ratio of correctly predicted observations out of all predicted observations (positive and negative) i.e. out of all loans, how many were correctly predicted as high-risk?
-  - f1-score:
+  - f1-score: one number to summarize precision and recall. An overall score.
   - accuracy:
   
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
