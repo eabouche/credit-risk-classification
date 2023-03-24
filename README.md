@@ -10,7 +10,7 @@ The dataset to analyze includes ***features*** such as the loan size, interest r
 
 1. First, we will read the data file into a python DataFrame and use the "train_test_split" function of the scikit-learn library to split our dataset into the training and testing data sets for this task 
 2. Then, we will instantiate a Logistic Regression model and train it using the "training" dataset. By default, the training dataset is 75% of the data. 
-3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. We used the testing data to predict as this is the data the model hasn't seen in order to see how well it can predict it.
+3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. We used the testing data to "predict" as this is the data the model hasn't seen and therefore it will give us the performance against the new data.
 4. And lastly, we will look into the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report to evaluate the results of the model.
 
 **Core functions and libraries for this work:** 
