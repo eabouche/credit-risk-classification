@@ -4,18 +4,18 @@
 
 The purpose of this project is to analyze a dataset of historical lending activity from a peer-to-peer lending services company in order to build a model that can identify the creditworthiness of borrowers. 
 
-The dataset to analyze includes ***features*** such as the loan size, interest rate, borrower income, debt to income and total debt. And the dataset has one field, the loan status that will be used as the  ***outcome***.  We are looking to predict whether the outcome is "healty" (0) or "high-risk" (1) in this activity.
+The dataset to analyze includes ***features*** such as the loan size, interest rate, borrower income, debt to income and total debt. And the dataset has one field, the loan status that will be used as the  ***outcome***.  The task is to predict whether the outcome is "healty" (0) or "high-risk" (1) for each loan application.
 
-Stages of the machine learning process
+### Stages of the machine learning process
 
 1. First, we will read the data file into a python DataFrame and use the "train_test_split" function of the scikit-learn library to split our datasetinto the training and testing sets to use for this exercise 
 2. Then, we will create a Logistic Regression model and train it using the "train" data segment. 
 3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. 
 4. And lastly, we will look into the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report to evaluate the results of the model.
 
-**Core functions and libraries for this work: 
+**Core functions and libraries for this work:*** 
 
-Library: ***scikit-learn 
+Library: ***scikit-learn ***
 Functions:  
 - train_test_split
 - LogisticRegression
