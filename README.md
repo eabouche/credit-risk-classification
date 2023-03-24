@@ -15,9 +15,9 @@ The dataset to analyze includes ***features*** such as the loan size, interest r
 
 **Core functions and libraries for this work:** 
 
-Library: ***scikit-learn *** 
+Main Library: ***scikit-learn*** 
 
-Functions:  
+Library functions:  
 - train_test_split
 - LogisticRegression
 - balance_accuracy_score
