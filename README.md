@@ -4,7 +4,7 @@
 
 The purpose of this project is to analyze a dataset of historical lending activity from a peer-to-peer lending services company in order to build a model that can identify the creditworthiness of borrowers. 
 
-The dataset to analyze includes ***features*** such as the loan size, interest rate, borrower income, debt to income and total debt. And the dataset has one field, the loan status that will be used as the  ***outcome***.  The task is to predict whether the outcome is "healty" (0) or "high-risk" (1) for each loan application.
+The dataset to analyze includes ***features*** such as the loan size, interest rate, borrower income, debt to income and total debt. And the dataset has one field, the loan status that will be used as the  ***outcome***.  The task is to predict whether the outcome is "healthy" (0) or "high-risk" (1) for each loan application.
 
 ### Stages of the machine learning process
 
@@ -46,8 +46,8 @@ After running the model:
   This indicates that...
   
 - The Classification Report shows the following:
-  - precision:
-  - recall:
+  - precision: ratio of correctly predicted positive observations to the total predicted positive observations i.e. out of all high-risk loans, how many actually were high-risk?
+  - recall: ratio of correctly predicted observations out of all predicted observations (positive and negative) i.e. out of all loans, how many were correctly predicted as high-risk?
   - f1-score:
   - accuracy:
   
