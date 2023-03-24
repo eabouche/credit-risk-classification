@@ -24,15 +24,6 @@ Library functions:
 - confusion_matrix
 - classification_report
 
-
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-
 ## Results
 After running the model against the testing data:
 - The Balance Accuracy Score using the new or test data is 94%.
@@ -57,10 +48,4 @@ After running the model against the testing data:
 
 ## Summary
 
-In summary, the data point that best describes the outcome is ...
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+In summary, the Logistic Regression model performed really well predicting the testing data. This is a model that can be used over and over. However the size of the data and the use case applied for this model would truly determine if this model can be relied uppon i.e. predicting cancer in patients would require a different percent of accuracy perhaps than predicting high-risk loans and the evaluation of the model for a new use case would tell us about it's effectiveness.
