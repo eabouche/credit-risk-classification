@@ -43,7 +43,7 @@ After running the model:
 
 
 
-  This indicates that...
+  The false numbers need to be as low as possible and 80 is the false positive, and 67 is the false negative.  Very low numbers compared to the rest.
   
 - The Classification Report shows the following:
   - precision: ratio of correctly predicted positive observations to the total predicted positive observations i.e. out of all high-risk loans, how many actually were high-risk?
