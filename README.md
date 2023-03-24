@@ -48,4 +48,4 @@ After running the model against the testing data:
 
 ## Summary
 
-In summary, the Logistic Regression model performed really well predicting the testing data. This is a model that can be used over and over. However the size of the data and the use case applied for this model would truly determine if this model can be relied uppon i.e. predicting cancer in patients would require a different percent of accuracy perhaps than predicting high-risk loans and the evaluation of the model for a new use case would tell us about it's effectiveness.
+In summary, the Logistic Regression model performed really well predicting the testing data. This is a model that can be used over and over. However the size of the data and the use case applied for this model would truly determine if this model can be relied uppon i.e. predicting cancer in patients would require a different percent of accuracy perhaps than predicting high-risk loans.  The evaluation of the model for the new use case would tell us more about it's effectiveness.
