@@ -37,6 +37,7 @@ In this section, describe the analysis you completed for the machine learning mo
 After running the model:
 - The Balance Accuracy Score using the new or test data is 94%.
 - The Confusion Matrix is as follows:
+![image](https://user-images.githubusercontent.com/115383317/227533864-29e2bb44-dab1-452a-9a6b-194e1719bea3.png)
 
   This indicates that...
   
