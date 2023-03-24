@@ -13,9 +13,10 @@ The dataset to analyze includes ***features*** such as the loan size, interest r
 3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. 
 4. And lastly, we will look into the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report to evaluate the results of the model.
 
-**Core functions and libraries for this work:*** 
+**Core functions and libraries for this work:** 
 
-Library: ***scikit-learn ***
+Library: ***scikit-learn *** 
+
 Functions:  
 - train_test_split
 - LogisticRegression
