@@ -8,12 +8,12 @@ The dataset to analyze includes features such as the loan size, interest rate, b
 
 Stages of the machine learning process
 
-1- First, we will use the "train_test_split" function of the scikit-learn library to split our datasetinto the training and testing sets to use. 
-2- Then, we will create a Logistic Regression model and train it using the "train" data segment. 
-3- Next, after our model has been train, we will then make it predict how good are the loans in testing dataset segment. 
-4- And lastly, we will evaluate the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report with the results of the model.
+1. First, we will read the data file into a python DataFrame and use the "train_test_split" function of the scikit-learn library to split our datasetinto the training and testing sets to use for this exercise 
+2. Then, we will create a Logistic Regression model and train it using the "train" data segment. 
+3. Next, after our model has been trained, we will then make it predict how good are the loans in the set aside testing segment. 
+4. And lastly, we will look into the performance of the model by looking at the balance_accuracy_score, a confusion matrix, and a classification report to evaluate the results of the model.
 
-The analysis will use mainly the scikit-learn library for the core of the work.  
+*** Core functions and libraries for this work. *** 
 
 The functions used from scikit-learn are: 
 - train_test_split
